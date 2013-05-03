@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="500px"
+   height="60px"
+   viewBox="0 0 500 60"
+   enable-background="new 0 0 500 60"
+   xml:space="preserve"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="graf_bar_wide_landscape.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"><metadata
+   id="metadata27"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs25"><inkscape:perspective
+     sodipodi:type="inkscape:persp3d"
+     inkscape:vp_x="0 : 30 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_z="378 : 30 : 1"
+     inkscape:persp3d-origin="189 : 20 : 1"
+     id="perspective29" /></defs><sodipodi:namedview
+   inkscape:window-height="1134"
+   inkscape:window-width="1600"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   showgrid="false"
+   inkscape:zoom="1.4391534"
+   inkscape:cx="189"
+   inkscape:cy="30"
+   inkscape:window-x="-4"
+   inkscape:window-y="-4"
+   inkscape:current-layer="Layer_1" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="-22.6255"
+   y1="208.4453"
+   x2="-22.6255"
+   y2="252.0469"
+   gradientTransform="matrix(1.3927249,0,0,1.3607,281.52474,-283.1711)">
+    <stop
+   offset="0"
+   style="stop-color:#BBBCBB"
+   id="stop4" />
+    <stop
+   offset="0.1302"
+   style="stop-color:#A5A6A6"
+   id="stop6" />
+    <stop
+   offset="0.3961"
+   style="stop-color:#7C7E81"
+   id="stop8" />
+    <stop
+   offset="0.6388"
+   style="stop-color:#5F6165"
+   id="stop10" />
+    <stop
+   offset="0.8481"
+   style="stop-color:#4D4F55"
+   id="stop12" />
+    <stop
+   offset="1"
+   style="stop-color:#47494F"
+   id="stop14" />
+</linearGradient>
+<path
+   d="M 500,49.86 C 500,55.44 495.85979,60 490.80688,60 L 9.2195767,60 C 4.1666667,60 0.026455026,55.44 0.026455026,49.86 L 0.026455026,10.81 C 0.026455026,5.24 4.1666667,0.67 9.2195767,0.67 L 490.79365,0.67 C 495.84656,0.67 499.98677,5.23 499.98677,10.81 L 500,49.86 L 500,49.86 z"
+   id="path16"
+   style="fill:url(#SVGID_1_)" />
+<path
+   d="M 490.80688,56.65 L 9.2195767,56.65 C 4.1666667,56.65 0.026455026,52.09 0.026455026,46.51 L 0.026455026,49.86 C 0.026455026,55.44 4.1666667,60 9.2195767,60 L 490.79365,60 C 495.84656,60 499.98677,55.44 499.98677,49.86 L 499.98677,46.51 C 500,52.09 495.85979,56.65 490.80688,56.65 z"
+   id="path18"
+   style="fill:#1a1a1a" />
+<path
+   d="M 9.1931217,4.59 L 490.7672,4.59 C 495.82011,4.59 499.96032,9.15 499.96032,14.73 L 499.96032,11.38 C 499.96032,5.8 495.82011,1.24 490.7672,1.24 L 9.1931217,1.24 C 4.1402116,1.24 0,5.8 0,11.38 L 0,14.73 C 0,9.15 4.1402116,4.59 9.1931217,4.59 z"
+   id="path20"
+   style="fill:#b3b3b3" />
+<path
+   d="M 0.026455026,10.14 L 0.026455026,35.59 C 0.026455026,30.02 4.1666667,25.45 9.2195767,25.45 L 490.79365,25.45 C 495.84656,25.45 499.98677,30.01 499.98677,35.59 L 499.98677,10.14 C 500,4.56 495.85979,0 490.80688,0 L 9.2195767,0 C 4.1666667,0 0.026455026,4.56 0.026455026,10.14 z"
+   id="path22"
+   style="fill:#f2f2f2;fill-opacity:0.18000004" />
+</svg>

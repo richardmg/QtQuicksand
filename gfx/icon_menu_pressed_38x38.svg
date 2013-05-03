@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-857.0088" y1="-1492.8516" x2="-823.4287" y2="-1492.8516" gradientTransform="matrix(-1 0 0 -1 -822.2188 -1474.8467)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1383" style="stop-color:#FAFAFA"/>
+	<stop  offset="0.3118" style="stop-color:#EAEAEA"/>
+	<stop  offset="0.5042" style="stop-color:#D1D1D1"/>
+	<stop  offset="0.7101" style="stop-color:#ADADAD"/>
+	<stop  offset="0.9247" style="stop-color:#7F7F7F"/>
+	<stop  offset="1" style="stop-color:#6E6E6E"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M29.05,0.84c3.15,0,5.74,2.58,5.74,5.74v22.85c0,3.15-2.58,5.74-5.74,5.74H6.95
+	c-3.15,0-5.74-2.58-5.74-5.74V6.58c0-3.15,2.58-5.74,5.74-5.74H29.05z"/>
+<polygon points="10.71,14.1 10.71,8.11 25.29,8.11 25.29,12.84 25.29,14.1 "/>
+<rect x="11.75" y="9.15" fill="#FFFFFF" width="12.5" height="3.91"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="127.5703" y1="818.1055" x2="138.4297" y2="818.1055" gradientTransform="matrix(1 0 0 1 -115 -807)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2_)" points="12.57,12.24 23.43,12.24 23.43,9.97 12.57,9.97 "/>
+<polygon points="10.71,20.91 10.71,14.92 25.29,14.92 25.29,19.65 25.29,20.91 "/>
+<rect x="11.75" y="15.96" fill="#FFFFFF" width="12.5" height="3.91"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="127.5703" y1="824.915" x2="138.4297" y2="824.915" gradientTransform="matrix(1 0 0 1 -115 -807)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_3_)" points="12.57,19.05 23.43,19.05 23.43,16.78 12.57,16.78 "/>
+<polygon points="10.71,27.89 10.71,21.9 25.29,21.9 25.29,26.63 25.29,27.89 "/>
+<rect x="11.75" y="22.94" fill="#FFFFFF" width="12.5" height="3.91"/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="127.5703" y1="831.8945" x2="138.4297" y2="831.8945" gradientTransform="matrix(1 0 0 1 -115 -807)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_4_)" points="12.57,26.03 23.43,26.03 23.43,23.76 12.57,23.76 "/>
+</svg>

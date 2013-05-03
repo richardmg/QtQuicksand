@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=QuickSand
+Exec=/usr/bin/quicksand
+Icon=quicksand
+StartupWMClass=
+X-Window-Icon=quicksand
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable
+Terminal=false
+

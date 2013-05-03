@@ -1,0 +1,159 @@
+Qt: QuickSand Example v1.0
+==========================
+
+This Qt example application demonstrates how to use custom "perpixel" grid based rendering
+without any graphical API or acceleration library. 
+It uses customized Navier-Stokes algorithm optimized for mobile processors (fixedpoint) to 
+emulate semi-elastic "sand" and an interface allowing user to manipulate the simulation 
+grid with touch / accolometer events.
+
+The application allows user to manipulate the sand with quite innovative ways: User can take 
+a picture with devices built-in camera or select any existing image from his device: 
+Application will autodraw it into the sand.
+
+Let the sun shine!
+
+This example was made in Hackathon competition on Nokia World 2010.
+
+This application has been tested on Symbian^3, Symbian S60 5th Edition, 
+Maemo (Nokia N900 PR1.2, PR1.3), Windows XP and Windows Vista with Qt 4.6.3/4.7.0 release.
+
+-------------------------------------------------------------------------------
+
+PREREQUISITES
+
+- Qt basics
+
+-------------------------------------------------------------------------------
+
+IMPORTANT FILES/CLASSES
+
+- sandbox_src: Platform independent C/C++ source implementing the actual simulation and
+rendering of the sand
+- teng_src: Platform independent C/C++ source providing general helper functionality and
+classes for image manipulation,mathematics, etc. 
+- toolbarwidget.h: Custom toolbar that has different sand painting effects
+- widget.h: Application main widget that owns toolbar
+- ContactsDialog.h: Shows contacts from the mobile device
+- CameraFileObserver.h: Symbian class that listens pictures taken by native camera
+
+Important classes: QMainWindow, QImage
+
+-------------------------------------------------------------------------------
+
+REQUIRED CAPABILITIES
+
+TARGET.CAPABILITY = NetworkServices \
+    ReadUserData \
+    WriteUserData \
+    LocalServices \
+    UserEnvironment \
+    ReadDeviceData \
+    WriteDeviceData
+
+Because of using Qt Mobility modules: sensors contacts messaging
+        
+-------------------------------------------------------------------------------
+
+RUNNING THE EXAMPLE
+
+Select tool to manipulate the sand: Add/remove, Finger, Shovel-push, Hurricane with the weight 
+option of your choise. Take a picture with your camera or select an existing one and let the 
+application paint it into the sand. Shake your device to mix the sand up. If you want to undo 
+something, use the "restore" tool from the toolbar to get parts of the sand back into your 
+original target. Change the direction of the light from directly below of the table or from
+any angle around it.
+
+-------------------------------------------------------------------------------
+
+BUILD & INSTALLATION INSTRUCTIONS
+
+Preparations
+~~~~~~~~~~~~
+Check that you have at least latest Qt / Nokia Qt SDK installed in the development environment and on the device.
+
+Build & installation instructions using Nokia Qt SDK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Open qmultiwinexample.pro
+   File -> Open File or Project, select quicksand.pro
+
+2. Select target(s), for example "Qt for Symbian Devices (Nokia Qt SDK)" and press Finish button
+
+3. Press Run button for the build the project and quicksand.sis Symbian install package is created
+
+4. Sign sis on Open Signed Online, see more https://www.symbiansigned.com/app/page/public/openSignedOnline.do
+
+5. Install signed sis quicksand.sis into your device using Nokia Ovi Suite or Nokia PC Suite
+
+
+Setting up Qt for Maemo on the Nokia N900 device
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enable root access, if missing:
+1. Applications menu > More > App manager > Menu > Application catalogues 
+   > Maemo Extras Devel > Untick Disabled > Save
+2. Applications menu > More > App manager > Download > Menu > Search 
+   > Type rootsh > Search > rootsh
+
+Qt is included in the device’s Nokia Applications repository:
+1. Applications menu > More > X Terminal
+  sudo gainroot
+  apt-get install libqt4-gui libqtm-sensors libqtm-contacts libqtm-messaging
+  
+
+Installing and running the application on a Maemo device
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Enable root access, if missing:
+1. Applications menu > More > App manager > Menu > Application catalogues 
+   > Maemo Extras Devel > Untick Disabled > Save
+2. Applications menu > More > App manager > Download > Menu > Search 
+   > Type rootsh > Search > rootsh
+
+Install the application from the X Terminal:
+1. Applications menu > More > X Terminal
+  sudo gainroot
+  dpkg -i path/to/QuickSand.deb
+
+2. Start the application from the QuickSand icon on the Nokia N900 device.
+
+
+-------------------------------------------------------------------------------
+
+COMPATIBILITY
+
+- Nokia Qt SDK 1.0
+- Nokia Qt SDK 1.0 MADDE Tools
+
+Tested on: 
+
+- Nokia N8
+- Nokia E7
+- Nokia 5800
+- Nokia N900 (PR1.2, PR1.3 firmware)
+- Windows XP
+- Windows Vista
+- Windows 7
+
+Developed with:
+- Nokia Qt SDK 1.0
+
+
+-------------------------------------------------------------------------------
+
+VERSION HISTORY
+
+1.0 First version from the Hackathon, Nokia World 2010
+
+-------------------------------------------------------------------------------
+
+RELATED DOCUMENTATION
+
+Hackathon competition on Nokia World 2010
+http://www.youtube.com/watch?v=pU44UZY44LI
+
+Wikipedia article about general fluid simulation
+http://en.wikipedia.org/wiki/Fluid_simulation
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1359.4258" y1="2233.8496" x2="-1325.8452" y2="2233.8496" gradientTransform="matrix(-1 0 0 1 -1324.7188 -2215.8467)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.1383" style="stop-color:#FAFAFA"/>
+	<stop  offset="0.3118" style="stop-color:#EAEAEA"/>
+	<stop  offset="0.5042" style="stop-color:#D1D1D1"/>
+	<stop  offset="0.7101" style="stop-color:#ADADAD"/>
+	<stop  offset="0.9247" style="stop-color:#7F7F7F"/>
+	<stop  offset="1" style="stop-color:#6E6E6E"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M28.97,0.84c3.15,0,5.74,2.58,5.74,5.74v22.85c0,3.15-2.58,5.74-5.74,5.74H6.87
+	c-3.15,0-5.74-2.58-5.74-5.74V6.58c0-3.15,2.58-5.74,5.74-5.74H28.97z"/>
+<path d="M28.44,26.33c0,0.55-0.45,1-1,1h-18c-0.55,0-1-0.45-1-1v-18c0-0.55,0.45-1,1-1h18c0.55,0,1,0.45,1,1V26.33z"/>
+<polygon fill="#FFFFFF" points="27.44,26.33 9.44,26.33 9.44,8.33 27.44,8.33 27.44,26.33 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="10.439" y1="17.333" x2="26.4375" y2="17.333">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.0849" style="stop-color:#F6F6F6"/>
+	<stop  offset="0.2235" style="stop-color:#DEDEDE"/>
+	<stop  offset="0.3985" style="stop-color:#B6B6B6"/>
+	<stop  offset="0.6031" style="stop-color:#7F7F7F"/>
+	<stop  offset="0.8298" style="stop-color:#393939"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2_)" points="26.44,25.33 10.44,25.33 10.44,9.33 26.44,9.33 26.44,25.33 "/>
+<rect x="12.69" y="8.5" fill="#FFFFFF" width="11.5" height="8.17"/>
+<polygon points="22.58,15.33 20.08,15.33 20.08,9.83 22.58,9.83 22.58,15.33 "/>
+</svg>
