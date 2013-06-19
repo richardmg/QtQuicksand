@@ -1,6 +1,8 @@
 TARGET       = Quicksand
 TEMPLATE     = app
 QT          += core gui declarative svg opengl
+contains(QT_CONFIG, release): CONFIG += release
+
 ios: {
     QMAKE_INFO_PLIST = $$PWD/Quicksand-Info.plist
     QTPLUGIN += qtsensors_ios qsvg
