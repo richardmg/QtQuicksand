@@ -12,8 +12,11 @@ ios: {
 
     icons.files += icon/ios/Default-Portrait~ipad.png
     icons.files += icon/ios/Default-Portrait@2x~ipad.png
+    icons.files += icon/ios/Icon.png
+    icons.files += icon/ios/Icon@2x.png
     icons.files += icon/ios/Icon~ipad.png
     icons.files += icon/ios/Icon~ipad@2x.png
+    icons.files += icon/ios/Default-568h@2x.png
     QMAKE_BUNDLE_DATA += icons
 }
 android: {
