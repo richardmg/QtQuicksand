@@ -9,6 +9,12 @@ ios: {
     QT     += sensors
     DEFINES += ENABLE_SENSORS
     OTHER_FILES += Quicksand-Info.plist
+
+    icons.files += icon/ipad/Default-Portrait~ipad.png
+    icons.files += icon/ipad/Default-Portrait@2x~ipad.png
+    icons.files += icon/ipad/Icon~ipad.png
+    icons.files += icon/ipad/Icon~ipad@2x.png
+    QMAKE_BUNDLE_DATA += icons
 }
 android: {
     QT += sensors
