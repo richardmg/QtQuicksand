@@ -10,8 +10,6 @@ ios: {
     DEFINES += ENABLE_SENSORS
     OTHER_FILES += Quicksand-Info.plist
 
-    icons.files += icon/ios/Default-Portrait~ipad.png
-    icons.files += icon/ios/Default-Portrait@2x~ipad.png
     icons.files += icon/ios/Icon.png
     icons.files += icon/ios/Icon@2x.png
     icons.files += icon/ios/Icon~ipad.png
