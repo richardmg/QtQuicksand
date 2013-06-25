@@ -1,4 +1,4 @@
-TARGET       = Quicksand
+TARGET       = QtQuicksand
 TEMPLATE     = app
 QT          += core gui declarative svg opengl
 contains(QT_CONFIG, release): CONFIG += release
