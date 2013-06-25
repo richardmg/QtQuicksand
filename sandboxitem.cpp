@@ -17,7 +17,8 @@ SandBoxItem::SandBoxItem(QDeclarativeItem *parent)
     setAcceptedMouseButtons(Qt::LeftButton);
     setAcceptTouchEvents(true);
 
-    image = QImage(QGuiApplication::primaryScreen()->size(), QImage::Format_RGB32);
+    QSize screenSize = QGuiApplication::primaryScreen()->availableGeometry().size();
+    image = QImage(screenSize, QImage::Format_RGB32);
 
     // startup the sandSimulation
     m_sandBox = new CVSandBox(image.width(), image.height());

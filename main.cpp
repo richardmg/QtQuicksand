@@ -1,6 +1,7 @@
 #include "sandboxitem.h"
 #include "qdeclarativetoucharea.h"
 
+#include <QtGui/QScreen>
 #include <QtWidgets/QApplication>
 #include <QtDeclarative/QDeclarativeView>
 #include <QtOpenGL/QGLWidget>
@@ -22,9 +23,10 @@ int main(int argc, char *argv[])
     QGLWidget *glWidget = new QGLWidget(format);
     glWidget->setAutoFillBackground(false);
     viewer.setViewport(glWidget);
-    viewer.setGeometry(0, 0, 1280, 720);
-    //viewer.showFullScreen();
-    viewer.show();
+
+    QRect sceneRect = QGuiApplication::primaryScreen()->availableGeometry();
+    viewer.setGeometry(sceneRect);
+    viewer.showNormal();
 
     return app.exec();
 }
